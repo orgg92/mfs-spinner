@@ -27,7 +27,7 @@ body, html{
   font-size: 15px;
   position: relative;
   top: 230px;
-  left: 70px;
+  left: 90px;
 }
 
 .loading-container {
@@ -164,66 +164,52 @@ body, html{
 }
 
 @keyframes l1-rise {
-  0%{ transform: translate(0px,0px); }
-  30%{ transform: translate(-8px, -8px); }
-  70%{ transform: translate(-8px, -8px); }
-  100%{ transform: translate(0px, 0px); }
+  
+  00%{ transform: translate(-8px, -8px); }
+  100%{ transform: translate(-8px, -8px); }
+  
 }
 
 @keyframes l2-rise {
-  0%{ transform: translate(0,32px); }
-  30%{ transform: translate(-8px, 40px); }
-  70%{ transform: translate(-8px, 40px); }
-  100%{ transform: translate(0,32px); }
+  
+  0%{ transform: translate(-8px, 40px); }
+  100%{ transform: translate(-8px, 40px); }
+  
 }
 
 @keyframes l3-rise {
-  0%{ transform: translate(32px, 0px); }
-  30%{ transform: translate(40px, -8px); }
-  70%{ transform: translate(40px, -8px); }
-  100%{ transform: translate(32px, 0px); }
+  0%{ transform: translate(40px, -8px); }
+  100%{ transform: translate(40px, -8px); }
 }
 
 @keyframes l5-rise {
-  0%{ transform: translate(64px, 0px); }
-  30%{ transform: translate(86px, -8px); }
-  70%{ transform: translate(86px, -8px); }
-  100%{ transform: translate(64px, 0px); }
+  00%{ transform: translate(86px, -8px); }
+  100%{ transform: translate(86px, -8px); }
 }
 
 @keyframes l6-rise {
-  0%{ transform: translate(64px, 32px); }
-  30%{ transform: translate(86px, 40px); }
-  70%{ transform: translate(86px, 40px); }
-  100%{ transform: translate(64px, 32px); }
+  0%{ transform: translate(86px, 40px); }
+  100%{ transform: translate(86px, 40px); }
 }
 
 @keyframes l4-rise {
-  0%{ transform: translate(32px,32px); }
-  30%{ transform: translate(40px, 40px); }
-  70%{ transform: translate(40px, 40px); }
-  100%{ transform: translate(32px,32px); }
+  0%{ transform: translate(40px, 40px); }
+  100%{ transform: translate(40px, 40px); }
 }
 
 @keyframes l8-rise {
-  0%{ transform: translate(64px,64px); }
-  30%{ transform: translate(86px, 90px); }
-  70%{ transform: translate(86px, 90px); }
-  100%{ transform: translate(64px,64px); }
+  0%{ transform: translate(86px, 90px); }
+  100%{ transform: translate(86px, 90px); }
 }
 
 @keyframes l7-rise {
-  0%{ transform: translate(32px,64px); }
-  30%{ transform: translate(40px, 90px); }
-  70%{ transform: translate(40px, 90px); }
-  100%{ transform: translate(32px,64px); }
+  00%{ transform: translate(40px, 90px); }
+  100%{ transform: translate(40px, 90px); }
 }
 
 @keyframes l9-rise {
-  0%{ transform: translate(0,64px); }
-  30%{ transform: translate(-8px, 90px); }
-  70%{ transform: translate(-8px, 90px); }
-  100%{ transform: translate(0,64px); }
+  0%{ transform: translate(-8px, 90px); }
+  100%{ transform: translate(-8px, 90px); }
 }
 
 @keyframes color {
